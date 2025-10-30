@@ -9,7 +9,8 @@ echo "=========================================="
 
 # Step 1: Update system
 echo "[1/10] Updating system packages..."
-sudo apt update -y && sudo apt upgrade -y
+sudo apt update -y 
+#&& sudo apt upgrade -y
 
 # Step 2: Install required dependencies
 echo "[2/10] Installing dependencies..."
